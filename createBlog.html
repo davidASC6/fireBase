@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blahg</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyA0_k3s4gtnGTELVlr64gVBB-5rooDQfKA",
+            authDomain: "blahg-93d4b.firebaseapp.com",
+            databaseURL: "https://blahg-93d4b.firebaseio.com",
+            projectId: "blahg-93d4b",
+            storageBucket: "blahg-93d4b.appspot.com",
+            messagingSenderId: "206978975007",
+            appId: "1:206978975007:web:ca32dd272a08c87d"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="blog.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <a href="index.html">
+            <h1>BLAHG</h1>
+        </a>
+    </div>
+    <div class="content">
+        <div class="name">
+            <p>name</p>
+            <input class="nameInput">
+        </div>
+        <div class="blogPost">
+            <p>post</p>
+            <input class="postInput">
+        </div>
+        <div class="postButton">
+            <a href="index.html"><button id="post">Post</button></a>
+        </div>
+    </div>
+</body>
+
+</html>

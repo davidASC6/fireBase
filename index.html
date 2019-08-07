@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blahg</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyA0_k3s4gtnGTELVlr64gVBB-5rooDQfKA",
+            authDomain: "blahg-93d4b.firebaseapp.com",
+            databaseURL: "https://blahg-93d4b.firebaseio.com",
+            projectId: "blahg-93d4b",
+            storageBucket: "blahg-93d4b.appspot.com",
+            messagingSenderId: "206978975007",
+            appId: "1:206978975007:web:ca32dd272a08c87d"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="header">
+            <!-- this is the top of the page where the title is-->
+            <h1>BLAHG</h1>
+            <a href="createBlog.html"><button id="createPost">Create Post</button></a>
+        </div>
+        <div class="contentPage">
+            <div class="leftSide">
+                <!-- this is the left sidebar-->
+            </div>
+            <div class="center">
+                <!-- this is where the database stuff goes -->
+            </div>
+            <div class="rightSide">
+                <!-- this is the right sidebar-->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
